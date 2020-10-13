@@ -1,10 +1,3 @@
-
-
-console.log('js loads')
-
-
-
-
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const m1 = document.getElementById('msg1')
