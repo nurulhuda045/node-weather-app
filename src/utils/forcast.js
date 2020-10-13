@@ -9,7 +9,7 @@ const forcast = (lat, long, callback) => {
         } else if (body.error) {
             callback('Something went wrong.', undefined)
         } else {
-            callback(undefined, body.current.weather_descriptions[0] +', It is currently '+body.current.temperature+'°F, feels like '+body.current.feelslike+' degrees. The humidity is '+ DataCue.current.humidity +'.')
+            callback(undefined, body.current.weather_descriptions[0] +', It is currently '+body.current.temperature+'°F, feels like '+body.current.feelslike+' degrees and the humidity is '+ body.current.humidity +'.')
         }
     })
 }
