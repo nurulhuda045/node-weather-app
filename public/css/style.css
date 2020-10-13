@@ -39,9 +39,15 @@ header a {
     text-decoration: none;
 
 }
+p a {
+    font-weight: bold;
+    color: #ff7070;
+    text-decoration: none;
+}
 
 .partial {
     width: 260px;
+    height: 280px;
 }
 
 input {
