@@ -43,3 +43,15 @@ header a {
 .partial {
     width: 260px;
 }
+
+input {
+    padding: 6px;
+}
+
+button {
+    padding: 8px;
+    font-weight: bold;
+    background-color: #ff7070;
+    border: none;
+    outline: none;
+}
